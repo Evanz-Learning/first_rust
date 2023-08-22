@@ -1,0 +1,17 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "(Windows) Launch",
+      "type": "cppvsdbg",
+      "request": "launch",
+      "program": "${workspaceRoot}/target/debug/${workspaceRootFolderName}",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${workspaceRoot}",
+      "environment": [],
+      "console": "integratedTerminal", // 終端機"integratedTerminal" , 偵錯主控台"internalConsole , 外部終端機"externalTerminal"
+      "preLaunchTask": "build"
+    }
+  ]
+}
